@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEHMET BERKAN SARI - Creative Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">BS</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">MEHMET BERKAN SARI</h1>
+                <h2 class="hero-subtitle">Creative Developer</h2>
+                <p class="hero-tagline">Passionate about design, creation, and innovation</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"></div>
+                    <div class="element element-2"></div>
+                    <div class="element element-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer and creative designer with expertise in modern web technologies. I specialize in Python (FastAPI), React with TypeScript, C# MVC, Java Spring Boot, and Docker containerization. My goal is to create innovative, scalable applications while continuously learning and improving my skills in both development and design.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Tools Mastered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Full-Stack Developer</h3>
+                        <span class="experience-period">2021 - Present</span>
+                    </div>
+                    <p>Developed web applications using modern technologies including FastAPI, React, C# MVC, Java Spring Boot, and Docker containerization.</p>
+                    <div class="experience-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">React</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Freelance Designer</h3>
+                        <span class="experience-period">2020 - Present</span>
+                    </div>
+                    <p>Created personal projects and commercial work including logos, social media posts, in-game graphics, and UI designs.</p>
+                    <div class="experience-tags">
+                        <span class="tag">Logo Design</span>
+                        <span class="tag">Social Media</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certificates -->
+    <section class="education">
+        <div class="container">
+            <div class="education-grid">
+                <div class="education-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-card">
+                        <h3>Teknopark Ankara İvedik OSB MTAL</h3>
+                        <p>Information Technologies (ATP program)</p>
+                        <span class="education-period">2021 - Present</span>
+                    </div>
+                </div>
+                <div class="certificates-section">
+                    <h2 class="section-title">Certificates</h2>
+                    <div class="certificates-grid">
+                        <div class="certificate-card">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Arduino Programming with Projects</h3>
+                            <span class="certificate-period">2023-2024</span>
+                        </div>
+                        <div class="certificate-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Mobile App Development with App Inventor</h3>
+                            <span class="certificate-period">2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="logos">Logos</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="3d">3D Models</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Portfolio Website</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Personal Portfolio</h3>
+                        <p>Modern responsive website with dark theme</p>
+                        <a href="https://github.com/06berkan06/MyCvWebsites" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Calculator App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Modern Calculator</h3>
+                        <p>JavaScript calculator with modern UI</p>
+                        <a href="https://github.com/06berkan06/Calculator" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Todo App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Task Manager</h3>
+                        <p>React todo application with local storage</p>
+                        <a href="https://github.com/06berkan06/TodoApp" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Weather App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Weather Dashboard</h3>
+                        <p>Weather app with API integration</p>
+                        <a href="https://github.com/06berkan06/WeatherApp" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Quiz App</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Interactive Quiz</h3>
+                        <p>JavaScript quiz application</p>
+                        <a href="https://github.com/06berkan06/QuizApp" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">UI Components</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Design System</h3>
+                        <p>Modern UI components library</p>
+                        <a href="https://github.com/06berkan06/UIComponents" target="_blank" class="portfolio-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <a href="https://linkedin.com" target="_blank" class="btn btn-primary">View Full Portfolio on LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript/TSX</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="70"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-microsoft"></i>
+                    <h3>C#</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker"></i>
+                    <h3>Docker</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5/CSS3</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="languages">
+        <div class="container">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages-grid">
+                <div class="language-card">
+                    <h3>Turkish</h3>
+                    <span class="language-level">Native</span>
+                </div>
+                <div class="language-card">
+                    <h3>English</h3>
+                    <span class="language-level">Intermediate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+90 539 226 06 08</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>06berkayn@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Ankara, Yenimahalle – Serhat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section class="references">
+        <div class="container">
+            <h2 class="section-title">References</h2>
+            <div class="references-grid">
+                <div class="reference-card">
+                    <h3>Atife Hoşsun Özdemir</h3>
+                    <p>+90 506 358 97 33</p>
+                </div>
+                <div class="reference-card">
+                    <h3>Mehmet Abacıoğlu</h3>
+                    <p>+90 505 640 70 34</p>
+                </div>
+                <div class="reference-card">
+                    <h3>Ahmet Gelal</h3>
+                    <p>+90 505 522 80 69</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>MEHMET BERKAN SARI</h3>
+                    <p>Creative Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="Berkan Sarı cv.pdf" download class="btn btn-secondary">Download CV</a>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/06berkan06" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mehmet Berkan Sarı. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
