@@ -120,7 +120,7 @@ Add new portfolio items:
 
 ## 📞 Contact Information
 
-- **Phone**: +90 539 226 06 08
+- **Phone**: 
 - **Email**: 06berkayn@gmail.com
 - **Location**: Ankara, Yenimahalle – Serhat
 
